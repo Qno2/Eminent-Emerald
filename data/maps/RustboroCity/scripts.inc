@@ -1290,3 +1290,98 @@ RustboroCity_Text_YouCanHave2On2Battle:
 	.string "they'll both challenge you.\p"
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two TRAINERS by yourself?$"
+
+
+RustboroCity_EventScript_ReceiveJohtoStarters::
+	lock
+	faceplayer
+	goto_if_set FLAG_UNUSED_0x267, RustboroCity_EventScript_GivenStarters
+	msgbox Text_TakeJohtoStarters, MSGBOX_DEFAULT
+	getpartysize
+	compare VAR_RESULT, 3
+	goto_if_gt RustboroCity_EventScript_PartyFull
+	givemon SPECIES_CHIKORITA, 13, ITEM_NONE
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Text_ReceivedChikorita, MSGBOX_DEFAULT
+	waitfanfare
+	givemon SPECIES_CYNDAQUIL, 13, ITEM_NONE
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Text_ReceivedCyndaquil, MSGBOX_DEFAULT
+	waitfanfare
+	givemon SPECIES_TOTODILE, 13, ITEM_NONE
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Text_ReceivedTotodile, MSGBOX_DEFAULT
+	waitfanfare
+	setflag FLAG_UNUSED_0x267
+	msgbox Text_GivenStartersRustboro, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_GivenStarters::
+	msgbox Text_GivenStartersRustboro, MSGBOX_DEFAULT
+	release
+	end
+
+RustboroCity_EventScript_PartyFull::
+	msgbox Text_PartyFullRustboro, MSGBOX_DEFAULT
+	release
+	end
+
+Text_TakeJohtoStarters:
+	.string "Ohh... My head...\n"
+	.string "Wait, who are you?\p"
+	.string "Oh, nevermind that. I have a\n"
+	.string "job to do... I think.\p"
+	.string "You're a trainer, right? So you\n"
+	.string "can take these Pokemon from me?\p"
+	.string "Great. Here you go.$"
+
+Text_PartyFullRustboro:
+	.string "Ah, you don't have space in\n"
+	.string "your party...$"
+
+Text_ReceivedChikorita:
+	.string "{PLAYER} received a Chikorita!$"
+
+Text_ReceivedCyndaquil:
+	.string "{PLAYER} received a Cyndaquil!$"
+
+Text_ReceivedTotodile:
+	.string "{PLAYER} received a Totodile!$"
+
+Text_GivenStartersRustboro:
+	.string "Wait, where's my wallet?$"
+
+
+RustboroCity_EventScript_GiftEevee::
+	lock
+	faceplayer
+	goto_if_set FLAG_EEVEE_WOODS, RustBoroCity_EventScript_GiftBeenGiven
+	msgbox RustboroCity_Text_GiftEevee
+	getpartysize
+	compare VAR_RESULT, 6
+	goto_if_eq RustboroCity_EventScript_PartyFull
+	givemon SPECIES_EEVEE, 10, ITEM_NONE
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox Text_ReceivedEevee, MSGBOX_DEFAULT
+	waitfanfare
+	msgbox RustboroCity_Text_AfterGift, MSGBOX_DEFAULT
+	setflag FLAG_EEVEE_WOODS
+	release
+	end
+
+RustBoroCity_EventScript_GiftBeenGiven::
+	msgbox RustboroCity_Text_AfterGift
+	release
+	end
+
+RustboroCity_Text_GiftEevee:
+	.string "I still have that Pokemon from\n"
+	.string "before that I want to give you.\p"
+	.string "Please take it.$"
+
+Text_ReceivedEevee:
+	.string "{PLAYER} received an Eevee!$"
+
+RustboroCity_Text_AfterGift:
+	.string "Ok. I'll see you around.$"
