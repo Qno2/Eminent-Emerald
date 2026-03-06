@@ -212,7 +212,7 @@ EverGrandeCity_Text_MayAfterBattle:
 	.string "You'll be great!$"
 
 EverGrandeCity_Text_BrendanIntro:
-	.string "BRENDAN: "Hey {PLAYER}.\p"
+	.string "BRENDAN: Hey {PLAYER}.\p"
 	.string "I heard you fixed that\n"
 	.string "freak weather in Sootopolos.\p"
 	.string "I know you're strong but I\n"
