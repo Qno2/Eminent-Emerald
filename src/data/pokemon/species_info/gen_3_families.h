@@ -12693,7 +12693,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
             gOverworldPalette_Regieleki,
             gShinyOverworldPalette_Regieleki
         )
-        .isLegendary = TRUE,
+        .isSubLegendary = TRUE,
         .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sRegielekiLevelUpLearnset,
         .teachableLearnset = sRegielekiTeachableLearnset,
@@ -12761,7 +12761,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
             gOverworldPalette_Regidrago,
             gShinyOverworldPalette_Regidrago
         )
-        .isLegendary = TRUE,
+        .isSubLegendary = TRUE,
         .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
         .levelUpLearnset = sRegidragoLevelUpLearnset,
         .teachableLearnset = sRegidragoTeachableLearnset,
