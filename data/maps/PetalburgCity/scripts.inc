@@ -867,7 +867,7 @@ PetalburgCity_Text_WallyBeforeBattle:
 	.string "when you last battled me.\p"
 	.string "I want to see how much stronger\n"
 	.string "I've gotten before challenging\l"
-	.string "Mr Norman./p"
+	.string "Mr Norman.\p"
 	.string "Please don't hold back.$"
 
 PetalburgCity_Text_WallyAfterBattle:

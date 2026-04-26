@@ -235,6 +235,9 @@ Poochyena
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+Venonat @ Oran Berry
+Level: 10
+
 === TRAINER_MARCEL ===
 Name: MARCEL
 Class: Cooltrainer
@@ -609,6 +612,40 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Sharpedo
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_ARCHIE_SLATEPORT ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Items: Super Potion
+Double Battle: No
+AI: Basic Trainer
+
+Mightyena
+Level: 24
+IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+- Assurance
+- Fire Fang
+- Ice Fang
+- Thunder Fang
+
+Golbat
+Level: 24
+IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+- Poison Fang
+- Wing Attack
+- Mean Look
+- Tailwind
+
+Carvanha
+Level: 25
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Ice Fang
+- Aqua Jet
+- Bite
+- Poison Fang
 
 === TRAINER_LEAH ===
 Name: LEAH
@@ -12045,6 +12082,60 @@ Ralts
 Level: 16
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
+=== TRAINER_WALLY_PETALBURG ===
+Name: WALLY
+Class: Rival
+Pic: Wally
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Pidgeot @ Wise Glasses
+Level: 40
+Ability: No Guard
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Hurricane
+- U-Turn
+- Whirlwind
+- Double Team
+
+Azumarill @ Sitrus Berry
+Level: 40
+Ability: Huge Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Play Rough
+- Aqua Tail
+- Slam
+- Aqua Ring
+
+Roserade @ Big Root
+Level: 41
+Ability: Natural Cure
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Giga Drain
+- Sludge Bomb
+- Toxic Spikes
+- Leech Seed
+
+Sandy Shocks @ Shuca Berry
+Level: 41
+Ability: Protosynthesis
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Discharge
+- Earth Power
+- Tri Attack
+- Electric Terrain
+
+Gallade @ Lum Berry
+Level: 42
+Ability: Sharpness
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psycho Cut
+- Brick Break
+- Night Slash
+- Bulk Up
+
 === TRAINER_WALLY_VR_2 ===
 Name: WALLY
 Class: Rival
@@ -15910,6 +16001,40 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Meteor Mash
 - Shadow Ball
+
+=== TRAINER_STEVEN_DEWFORD ===
+Name: STEVEN
+Class: Rival
+Pic: Steven
+Gender: Male
+Music: Male
+Items: Super Potion
+Double Battle: No
+AI: Basic Trainer
+
+Skarmory
+Level: 21
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Peck
+- Steel Wing
+- Sandstorm
+- Spikes
+
+Phanpy
+Level: 22
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Protect
+- Bulldoze
+- Rollout
+- Facade
+
+Metang @ Oran Berry
+Level: 23
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Zen Headbutt
+- Bullet Punch
+- Magnet Rise
+- Take Down
 
 === TRAINER_ANABEL ===
 Name: ANABEL
