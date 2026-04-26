@@ -233,10 +233,21 @@ AI: Check Bad Move
 
 Poochyena
 Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Run Away
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+- Tackle
+- Howl
+- Sand Attack
+- Bite
 
 Venonat @ Oran Berry
 Level: 10
+Ability: Tinted Lens
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+- Tackle
+- Disable
+- Supersonic
+- Confusion
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -326,8 +337,31 @@ Double Battle: No
 AI: Check Bad Move
 
 Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 15
+Ability: Run Away
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+- Roar
+- Mud Slap
+- Bite
+- Sand Attack
+
+Venonat
+Level: 16
+Ability: Tinted Lens
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+- Poison Powder
+- Supersonic
+- Confusion
+- Disable
+
+Yanma @ Oran Berry
+Level: 17
+Ability: Speed Boost
+IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+- Detect
+- Aerial Ace
+- Double Team
+- Quick Attack
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -536,13 +570,59 @@ Items: Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Forretress @ Occa Berry
+Level: 55
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spikes
+- Stealth Rock
+- Bug Bite
+- Rapid Spin
 
-Golbat
-Level: 34
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Poliwrath @ Lum Berry
+Level: 55
+Ability: Water Absorb
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Belly Drum
+- Drain Punch
+- Waterfall
+- Thunderpunch
+
+Zangoose @ Toxic Orb
+Level: 56
+Ability: Toxic Boost
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Crush Claw
+- Close Combat
+- Switcheroo
+- Protect
+
+Muk_Alola @ Sitrus Berry
+Level: 56
+Ability: Gluttony
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Gunk Shot
+- Crunch
+- Ice Punch
+- Toxic
+
+Tentacruel @ Black Sludge
+Level: 56
+Ability: Clear Body
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Surf
+- Sludge Wave
+- Toxic Spikes
+- Knock Off
+
+Overqwil @ Life Orb
+Level: 57
+Ability: Intimidate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Gunk Shot
+- Throat Chop
+- Liquidation
+- Swords Dance
 
 === TRAINER_ZANDER ===
 Name: ZANDER
@@ -566,13 +646,51 @@ Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Carvanha
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Scream Tail @ Leftovers
+Level: 45
+Ability: Cute Charm
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dazzling Gleam
+- Thunder Wave
+- Wish
+- Disable
 
-Mightyena
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Mismagius @ Life Orb
+Level: 45
+Ability: Levitate
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Shadow Ball
+- Moonblast
+- Pain Split
+- Calm Mind
+
+Jynx @ Wide Lens
+Level: 46
+Ability: Magic Guard
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Lovely Kiss
+- Psychic
+- Ice Beam
+- Reflect
+
+Ninetales @ Passho Berry
+Level: 46
+Ability: Flash Fire
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dazzling Gleam
+- Flamethrower
+- Confuse Ray
+- Will O Wisp
+
+Sylveon @ Sitrus Berry
+Level: 47
+Ability: Adaptability
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Moonblast
+- Psychic
+- Calm Mind
+- Wish
+
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
 Name: SHELLY
@@ -583,13 +701,60 @@ Music: Aqua
 Double Battle: No
 AI: Basic Trainer
 
-Sharpedo
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Scream Tail @ Booster Energy
+Level: 61
+Ability: Protosynthesis
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dazzling Gleam
+- Toxic
+- Wish
+- Protect
 
-Mightyena
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Wailord @ Chesto Berry
+Level: 61
+Ability: Water Veil
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Water Spout
+- Surf
+- Rest
+- Sleep Talk
+
+Mismagius @ Life Orb
+Level: 62
+Ability: Levitate
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Shadow Ball
+- Moonblast
+- Pain Split
+- Calm Mind
+
+Jynx @ Wide Lens
+Level: 62
+Ability: Magic Guard
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Lovely Kiss
+- Psychic
+- Ice Beam
+- Reflect
+
+Ninetales @ Heavy Duty Boots
+Level: 62
+Ability: Flash Fire
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Moonblast
+- Flamethrower
+- Confuse Ray
+- Will O Wisp
+
+Sylveon @ Lum Berry
+Level: 63
+Ability: Adaptability
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Moonblast
+- Psychic
+- Calm Mind
+- Wish
+
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -601,17 +766,59 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 41
+Mightyena @ Focus Sash
+Level: 62
+Ability: Intimidate
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Crunch
+- Play Rough
+- Taunt
+- Yawn
 
-Crobat
-Level: 41
+Crobat @ Weakness Policy
+Level: 62
+Ability: Infiltrator
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Cross Poison
+- Throat Chop
+- U-Turn
+- Acrobatics
 
-Sharpedo
-Level: 43
+Kabutops @ Rindo Berry
+Level: 63
+Ability: Swift Swim
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Liquidation
+- Stone Edge
+- Leech Life
+- Swords Dance
+
+Omastar @ White Herb
+Level: 63
+Ability: Shell Armor
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Shell Smash
+- Surf
+- Power Gem
+- Ice Beam
+
+Muk @ Choice Band
+Level: 63
+Ability: Poison Touch
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Gunk Shot
+- Fire Punch
+- Ice Punch
+- Thunder Punch
+
+Sharpedo @ Life Orb
+Level: 64
+Ability: Speed Boost
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Liquidation
+- Crunch
+- Poison Fang
+- Ice Fang
 
 === TRAINER_ARCHIE_SLATEPORT ===
 Name: ARCHIE
@@ -625,6 +832,7 @@ AI: Basic Trainer
 
 Mightyena
 Level: 24
+Ability: Intimidate
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Assurance
 - Fire Fang
@@ -633,6 +841,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Golbat
 Level: 24
+Ability: Inner Focus
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Poison Fang
 - Wing Attack
@@ -641,6 +850,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Carvanha
 Level: 25
+Ability: Rough Skin
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ice Fang
 - Aqua Jet
@@ -4632,45 +4842,59 @@ Double Battle: No
 AI: Basic Trainer / Force Setup First Turn
 Mugshot: Purple
 
-Mightyena
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Roar
-- Double Edge
-- Sand Attack
-- Crunch
-
-Shiftry
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
-
-Cacturne
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Leech Seed
-- Feint Attack
-- Needle Arm
-- Cotton Spore
-
-Crawdaunt
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Surf
-- Swords Dance
-- Strength
-- Facade
-
-Absol @ Sitrus Berry
-Level: 49
+Umbreon @ Leftovers
+Level: 74
+Ability: Synchronize
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Toxic
+- Moonlight
+- Protect
+
+Weavile @ Chople Berry
+Level: 74
+Ability: Technician
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Triple Axel
+- Thief
 - Aerial Ace
-- Rock Slide
+- Ice Shard
+
+Houndoom @ Focus Sash
+Level: 74
+Ability: Flash Fire
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Dark Pulse
+- Sludge Bomb
+- Nasty Plot
+
+Crawdaunt @ Choice Scarf
+Level: 74
+Ability: Adaptability
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crabhammer
+- Knock Off
+- Earthquake
+- Brick Break
+
+Roaring Moon @ Life Orb
+Level: 74
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Rush
+- Knock Off
+- U-Turn
+- Earthquake
+
+Absol @ Scope Lens
+Level: 75
+Ability: Super Luck
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Slash
+- Psycho Cut
+- Play Rough
 - Swords Dance
-- Slash
 
 === TRAINER_PHOEBE ===
 Name: PHOEBE
@@ -4683,44 +4907,58 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Green
 
-Dusclops
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Curse
-- Protect
-
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Grudge
-- Will O Wisp
-- Feint Attack
-
-Sableye
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
-
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
-
-Dusclops @ Sitrus Berry
-Level: 51
+Gengar @ Life Orb
+Level: 75
+Ability: Infiltrator
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
-- Ice Beam
-- Rock Slide
+- Sludge Bomb
+- Thunderbolt
+- Psychic
+
+Flutter Mane @ Booster Energy
+Level: 75
+Ability: Protosynthesis
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Moonblast
+- Power Gem
+- Calm Mind
+
+Banette @ Choice Band
+Level: 75
+Ability: Cursed Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Punch
+- Double Edge
+- Fire Punch
+- Ice Punch
+
+Sableye @ Light Clay
+Level: 75
+Ability: Prankster
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Knock Off
+- Will O Wisp
+- Reflect
+- Light Screen
+
+Typhlosion_Hisui @ Choice Scarf
+Level: 75
+Ability: Blaze
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Knock Off
+- Will O Wisp
+- Light Screen
+
+Dusknoir @ Weakness Policy
+Level: 76
+Ability: Iron Fist
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Punch
+- Drain Punch
+- Power Up Punch
 - Earthquake
 
 === TRAINER_GLACIA ===
@@ -4734,45 +4972,59 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Pink
 
-Sealeo
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Encore
-- Body Slam
-- Hail
-- Ice Ball
-
-Glalie
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Crunch
-- Icy Wind
+Iron Bundle @ Icy Rock
+Level: 76
+Ability: Snow Warning
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
+- Air Slash
+- Roost
+- Flip Turn
 
-Sealeo
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Attract
-- Double Edge
-- Hail
-- Blizzard
+Cloyster @ White Herb
+Level: 76
+Ability: Skill Link
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Icicle Spear
+- Rock Blast
+- Liquidation
+- Shell Smash
 
-Glalie
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Froslass @ Wise Glasses
+Level: 76
+Ability: Snow Cloak
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
-- Explosion
-- Hail
-- Ice Beam
+- Blizzard
+- Destiny Bond
+- Psychic
 
-Walrein @ Sitrus Berry
-Level: 53
+Mamoswine @ Assault Vest
+Level: 76
+Ability: Slush Rush
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Icicle Crash
+- Headlong Rush
+- Stone Edge
+- Knock Off
+
+Ninetales_Alola @ Heavy Duty Boots
+Level: 76
+Ability: Snow Warning
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Beam
+- Moonblast
+- Aurora Veil
+- Foul Play
+
+Walrein @ Leftovers
+Level: 77
+Ability: Ice Body
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
-- Body Slam
 - Ice Beam
-- Sheer Cold
+- Rest
+- Sleep Talk
 
 === TRAINER_DRAKE ===
 Name: DRAKE
@@ -4785,45 +5037,58 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
 
-Shelgon
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rock Tomb
-- Dragon Claw
-- Protect
-- Double Edge
+Feraligatr @ Leftovers
+Level: 77
+Ability: Sheer Force
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wave Crash
+- Dragon Rush
+- Superpower
+- Dragon Dance
 
-Altaria
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Sceptile @ Choice Band
+Level: 77
+Ability: Sharpness
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Edge
 - Dragon Breath
 - Dragon Dance
 - Aerial Ace
 
-Kingdra
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Smokescreen
-- Dragon Dance
-- Surf
-- Body Slam
-
-Flygon
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Crunch
-- Dragon Breath
-- Earthquake
-
-Salamence @ Sitrus Berry
-Level: 55
+Charizard @ White Herb
+Level: 77
+Ability: Levitate
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Dragon Claw
-- Rock Slide
+- Overheat
+- Draco Meteor
+- Air Slash
+- Scorching Sands
+
+Flygon @ Sitrus Berry
+Level: 77
+Ability: Sheer Force
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Rush
+- Earthquake
 - Crunch
+- Dragon Dance
+
+Dragonite @ Yache Berry
+Level: 77
+Ability: Multiscale
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Rush
+- Acrobatics
+- Extreme Speed
+- Dragon Dance
+
+Salamence @ Life Orb
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Rush
+- Dual Wingbeat
+- Earthquake
+- Stone Edge
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -4835,28 +5100,58 @@ Items: Potion / Potion
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 12
+Geodude_Alola @ Oran Berry
+Level: 14
+Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
+- Spark
+- Sandstorm
 - Rock Tomb
+- Stealth Rock
 
-Geodude
-Level: 12
+Anorith @ Expert Belt
+Level: 14
+Ability: Battle Armor
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
+- Fury Cutter
 - Rock Tomb
+- Metal Claw
+- Aerial Ace
 
-Nosepass @ Oran Berry
+Lileep @ Leftovers
+Level: 14
+Ability: Water Absorb
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rock Tomb
+- Grass Knot
+- Ingrain
+- Confuse Ray
+
+Aron @ Muscle Band
 Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Metal Claw
+- Rock Tomb
+- Mud Slap
+- Roar
+
+Larvitar @ Flame Orb
+Level: 15
+Ability: Guts
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Payback
+- Leer
+- Rock Tomb
+- Scary Face
+
+Nosepass @ Sitrus Berry
+Level: 16
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Block
-- Harden
-- Tackle
+- Thunder Wave
+- Spark
 - Rock Tomb
 
 === TRAINER_BRAWLY_1 ===
@@ -4869,28 +5164,58 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Machop
-Level: 16
+Machop @ Scope Lens
+Level: 19
+Ability: Guts
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Knock Off
+- Karate Chop
+- Focus Energy
+- Bulk Up
+
+Meditite @ Coba Berry
+Level: 19
+Ability: Pure Power
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Force Palm
+- Reflect
+- Light Screen
+- Bulk Up
+
+Mankey @ Focus Sash
+Level: 19
+Ability: Vital Spirit
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Karate Chop
-- Low Kick
-- Seismic Toss
+- Swagger 
+- Focus Energy
 - Bulk Up
 
-Meditite
-Level: 16
+Sneasel_Hisui @ Black Sludge
+Level: 20
+Ability: Inner Focus
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
+- Poison Fang
+- Rock Smash
+- Metal Claw
 - Bulk Up
 
-Makuhita @ Sitrus Berry
-Level: 19
+Hitmontop @ Lum Berry
+Level: 20
+Ability: Intimidate
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Triple Kick
+- Fake Out
+- Rapid Spin
+- Bulk Up
+
+Hariyama @ Sitrus Berry
+Level: 21 
+Ability: Thick Fat
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Knock Off
 - Arm Thrust
-- Vital Throw
-- Reversal
 - Bulk Up
 
 === TRAINER_WATTSON_1 ===
@@ -4903,37 +5228,59 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Voltorb
-Level: 20
+Minun @ Terrain Extender
+Level: 30
+Ability: Electric Surge
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
-
-Electrike
-Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
-
-Magneton
-Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
+- Volt Switch
+- Reflect
+- Light Screen
 - Thunder Wave
-- Sonic Boom
+
+Volbeat @ Focus Sash
+Level: 30
+Ability: Illuminate
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Tail Glow
+- Volt Switch
+- Struggle Bug
+- Shock Wave
+
+Electrode_Hisui @ Wide Lens
+Level: 30
+Ability: Soundproof
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rain Dance
+- Thunder
+- Self Destruct
+- Energy Ball
+
+Ampharos @ Electric Seed
+Level: 31
+Ability: Static
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Dragon Breath
+- Thunder Wave
+- Volt Switch
+
+Magneton @ Shuca Berry
+Level: 31
+Ability: Sturdy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Flash Cannon
+- Tri Attack
+- Supersonic
 
 Manectric @ Sitrus Berry
-Level: 24
+Level: 32
+Ability: Lightning Rod
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+- Thunderbolt
+- Flamethrower
+- Swift
+- Roar
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -4945,37 +5292,59 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Numel
-Level: 24
+Ninetales @ Heat Rock
+Level: 39
+Ability: Drought
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Take Down
-- Magnitude
+- Flamethrower
+- Dazzling Gleam
+- Will O Wisp
 - Sunny Day
 
-Slugma
-Level: 24
+Magcargo @ White Herb
+Level: 39
+Ability: Flame Body
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Smog
-- Light Screen
-- Sunny Day
+- Shell Smash
+- Flamethrower
+- Power Gem
+- Earth Power
 
-Camerupt
-Level: 26
+Tauros_Paldea_Blaze @ Muscle Band
+Level: 40
+Ability: Anger Point
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Raging Bull
+- Double Kick
+- Zen Headbutt
+- Work Up
+
+Sunflora @ Wise Glasses
+Level: 40
+Ability: Chlorophyll
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Giga Drain
+- Sunny Day
+- Leech Seed
+
+Arcanine @ Heavy Duty Boots
+Level: 40
+Ability: Intimidate
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Extreme Speed
+- Flame Wheel
+- Play Rough
+- Overheat
+
+Torkoal @ Leftovers
+Level: 41
+Ability: White Smoke
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Overheat
-- Tackle
-- Sunny Day
-- Attract
-
-Torkoal @ White Herb
-Level: 29
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Sunny Day
-- Body Slam
-- Attract
+- Rapid Spin
+- Scorching Sands
+- Rest
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -4987,37 +5356,59 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Spinda
-Level: 27
+Tauros @ Focus Sash
+Level: 42
+Ability: Intimidate
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
+- Raging Bull
+- U-Turn
+- Zen Headbutt
+- Payback
 
-Vigoroth
-Level: 27
+Porygon Z @ Chople Berry
+Level: 42
+Ability: Download
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
+- Tri Attack
+- Discharge
+- Recover
+- Recycle
 
-Linoone
-Level: 29
+Wyrdeer @ Choice Specs
+Level: 43
+Ability: Intimidate
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
+- Hyper Voice
+- Psychic
+- Shadow Ball
+- Thunderbolt
+
+Obstagoon @ Sitrus Berry
+Level: 43
+Ability: Guts
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Retaliate
 - Belly Drum
 - Facade
-- Headbutt
+- Night Slash
 
-Slaking @ Sitrus Berry
-Level: 31
+Kangaskhan @ Assault Vest
+Level: 43
+Ability: Scrappy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Retaliate
+- Body Slam
+- Sucker Punch
+- Fake Out
+
+Slaking @ Leftovers
+Level: 44
+Ability: Truant
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
+- Retaliate
+- Mega Punch
+- Throat Chop
+- Brick Break
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -5029,45 +5420,59 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer / Risky
 
-Swablu
-Level: 29
+Noctowl @ Light Clay
+Level: 50
+Ability: Tinted Lens
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
-- Aerial Ace
+- Psychic
+- Air Slash
+- Light Screen
+- Reflect
 
-Tropius
-Level: 29
+Dodrio @ Choice Band
+Level: 50
+Ability: Early Bird
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Synthesis
+- Drill Peck
+- Lunge
+- Facade
+- Drill Run
 
-Pelipper
-Level: 30
+Gliscor @ Toxic Orb
+Level: 51
+Ability: Poison Heal
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
-- Protect
-- Aerial Ace
-
-Skarmory
-Level: 31
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
-- Fury Attack
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Oran Berry
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
-- Dragon Breath
-- Dragon Dance
+- Knock Off
 - Aerial Ace
+- Roost
+
+Crobat @ Black Sludge
+Level: 51
+Ability: Inner Focus
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Aerial Ace
+- Cross Poison
+- U-Turn
+- Roost
+
+Togekiss @ Leftovers
+Level: 51
+Ability: Serene Grace
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Air Slash
+- Moonblast
+- Calm Mind
+- Roost
+
+Altaria @ White Herb
+Level: 52
+Ability: Aerilate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Draco Meteor
+- Hyper Voice
+- Moonblast
+- Roost
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -5079,37 +5484,59 @@ Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Basic Trainer
 
-Claydol
-Level: 41
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Ancient Power
-- Psychic
-- Light Screen
-
-Xatu
-Level: 41
+Chimecho @ Terrain Extender
+Level: 60
+Ability: Psychic Surge
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
-- Sunny Day
-- Confuse Ray
 - Calm Mind
+- Heal Bell
+- Yawn
 
-Lunatone @ Sitrus Berry
-Level: 42
+Espeon @ Psychic Seed
+Level: 60
+Ability: Adaptability
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
 - Psychic
-- Hypnosis
 - Calm Mind
+- Dazzling Gleam
+- Shadow Ball
 
-Solrock @ Sitrus Berry
-Level: 42
+Xatu @ Heavy Duty Boots
+Level: 61
+Ability: Magic Bounce
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sunny Day
-- Solar Beam
+- Air Slash
 - Psychic
-- Flamethrower
+- Calm Mind
+- Wish
+
+Medicham @ Choice Scarf
+Level: 61
+Ability: Pure Power
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- High Jump Kick
+- Ice Punch
+- Fire Punch
+- Thunder Punch
+
+Solrock
+Level: 62
+Ability: Levitate
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Stone Edge
+- Zen Headbutt
+- Morning Sun
+- Flare Blitz
+
+Lunatone @ Power Herb
+Level: 62
+Ability: Levitate
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Meteor Beam
+- Calm Mind
+- Moonblast
 
 === TRAINER_JUAN_1 ===
 Name: JUAN
@@ -5121,43 +5548,57 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Luvdisc
-Level: 41
+Politoed @ Damp Rock
+Level: 65
+Ability: Drizzle
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+- Surf
+- Flip Turn
+- Ice Beam
+- Recover
 
-Whiscash
-Level: 41
+Slowbro @ Leftovers
+Level: 65
+Ability: Regenerator
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
+- Surf
+- Psychic
+- Shadow Ball
+- Slack Off
+
+Huntail @ White Herb
+Level: 66
+Ability: Swift Swim
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shell Smash
+- Crunch
+- Aqua Tail
+- Ice Fang
+
+Lanturn @ Rindo Berry
+Level: 66
+Ability: Volt Absorb
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Surf
+- Thunderbolt
+- Volt Switch
+- Confuse Ray
+
+Gyarados @ Wacan Berry
+Level: 66
+Ability: Moxie
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Liquidation
+- Crunch
 - Earthquake
+- Dragon Dance
 
-Sealeo
-Level: 43
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
-
-Crawdaunt
-Level: 43
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Kingdra @ Chesto Berry
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
+Kingdra @ Life Orb
+Level: 67
+Ability: Swift Swim
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Surf
 - Ice Beam
 - Rest
 
@@ -6288,53 +6729,59 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Yellow
 
-Wailord
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Spout
-- Double Edge
-- Blizzard
+Pelipper @ Damp Rock
+Level: 63
+Ability: Drizzle
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Surf 
+- Hurricane
+- Roost
+- Flip Turn
 
-Tentacruel
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
+Ludicolo @ Life Orb
+Level: 63
+Ability: Swift Swim
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Hydro Pump
-- Sludge Bomb
+- Energy Ball
 - Ice Beam
-
-Ludicolo
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Surf
 - Leech Seed
-- Double Team
 
-Whiscash
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
+Gorebyss @ Flame Orb
+Level: 64
+Ability: Marvel Scale
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Protect
+- Hydro Pump
+- Moonblast
+- Shadow Ball
+
+Starmie @ Choice Specs
+Level: 64
+Ability: Natural Cure
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Surf
-- Amnesia
-- Hyper Beam
+- Psychic
+- Ice Beam
+- Thunderbolt
 
-Gyarados
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Dance
-- Earthquake
-- Hyper Beam
-- Surf
-
-Milotic @ Sitrus Berry
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Recover
+Lapras @ Assault Vest
+Level: 64
+Ability: Shell Armor
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Surf
 - Ice Beam
-- Toxic
+- Thunderbolt
+- Psychic
+
+Milotic @ Leftovers
+Level: 65
+Ability: Adaptability
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Moonblast
+- Ice Beam
+- Recover
 
 === TRAINER_ANDREW ===
 Name: ANDREW
@@ -9498,45 +9945,59 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Altaria
-Level: 44
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aerial Ace
-- Safeguard
-- Dragon Breath
-- Dragon Dance
-
-Delcatty
-Level: 43
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Sing
-- Assist
-- Charm
-- Feint Attack
-
-Roselia
-Level: 44
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Magical Leaf
-- Leech Seed
-- Giga Drain
-- Toxic
-
-Magneton
-Level: 41
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Supersonic
-- Thunderbolt
-- Tri Attack
-- Screech
-
-Gardevoir
-Level: 45
+Pidgeot @ Focus Sash
+Level: 69
+Ability: No Guard
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Team
-- Calm Mind
-- Psychic
-- Future Sight
+- Hurricane
+- Hyper Voice
+- Taunt
+- U-Turn
+
+Snorlax @ Sitrus Berry
+Level: 69
+Ability: Thick Fat
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Body Slam
+- Heavy Slam
+- Earthquake
+- Recycle
+
+Azumarill @ Assault Vest
+Level: 70
+Ability: Huge Power
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Liquidation
+- Play Rough
+- Aqua Jet
+- Superpower
+
+Roserade @ Grassy Seed
+Level: 70
+Ability: Grassy Surge
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Giga Drain
+- Sludge Bomb
+- Leech Seed
+- Extrasensory
+
+Sandy Shocks @ Choice Specs
+Level: 70
+Ability: Sturdy
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Thunderbolt
+- Earth Power
+- Tri Attack
+- Volt Switch
+
+Gallade @ Life Orb
+Level: 71
+Ability: Sharpness
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psycho Cut
+- Sacred Sword
+- Leaf Blade
+- Night Slash
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: BRENDAN
@@ -9560,17 +10021,32 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 18
+Swellow
+Level: 25
+Ability: Guts
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Aerial Ace
+- Facade
+- U-Turn
+- Focus Energy
 
-Wingull
-Level: 18
+Pikachu
+Level: 26
+Ability: Static
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Electro Ball
+- Agility
+- Nuzzle
+- Feint
 
-Grovyle
-Level: 20
+Grovyle @ Sitrus Berry
+Level: 27
+Ability: Overgrow
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Blade
+- Assurance
+- Fury Cutter
+- Detect
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -9581,17 +10057,41 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Swellow @ Focus Sash
+Level: 46
+Ability: Guts
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Brave Bird
+- Facade
+- Endeavor
+- Double Team
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Raichu_Alola @ Shuca Berry
+Level: 47
+Ability: Static
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunderbolt
+- Nasty Plot
+- Nuzzle
+- Light Screen
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Exploud @ Lum Berry
+Level: 47
+Ability: Scrappy
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hyper Voice
+- Rest
+- Sleep Talk
+- Shadow Ball
+
+Sceptile @ Sitrus Berry
+Level: 48
+Ability: Overgrow
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Leaf Blade
+- Dual Chop
+- Night Slash
+- Detect
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
 Name: BRENDAN
@@ -9615,17 +10115,32 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
+Swellow
+Level: 25
+Ability: Guts
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Aerial Ace
+- Facade
+- U-Turn
+- Focus Energy
 
-Lombre
-Level: 18
+Pikachu 
+Level: 26
+Ability: Static
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Electro Ball
+- Agility
+- Nuzzle
+- Feint
 
-Combusken
-Level: 20
+Combusken @ Sitrus Berry
+Level: 27
+Ability: Blaze
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Double Kick
+- Flame Charge
+- Aerial Ace
+- Slash
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -9636,17 +10151,41 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Swellow @ Focus Sash
+Level: 46
+Ability: Guts
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Brave Bird
+- Facade
+- Endeavor
+- Double Team
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Raichu_Alola @ Shuca Berry
+Level: 47
+Ability: Static
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunderbolt
+- Nasty Plot
+- Nuzzle
+- Light Screen
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Exploud @ Lum Berry
+Level: 47
+Ability: Scrappy
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hyper Voice
+- Rest
+- Sleep Talk
+- Shadow Ball
+
+Blaziken @ Sitrus Berry
+Level: 48
+Ability: Blaze
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Blaze Kick
+- Brick Break
+- Aerial Ace
+- Bulk Up
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
 Name: BRENDAN
@@ -9670,17 +10209,32 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Lombre
-Level: 18
+Swellow
+Level: 25
+Ability: Guts
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Aerial Ace
+- Facade
+- U-Turn
+- Focus Energy
 
-Slugma
-Level: 18
+Pikachu
+Level: 26
+Ability: Static
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Electro Ball
+- Agility
+- Nuzzle
+- Feint
 
-Marshtomp
-Level: 20
+Marshtomp @ Sitrus Berry
+Level: 27
+Ability: Torrent
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Mud Shot
+- Water Pulse
+- Rock Slide
+- Rock Smash
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -9691,17 +10245,41 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Swellow @ Focus Sash
+Level: 46
+Ability: Guts
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Brave Bird
+- Facade
+- Endeavor
+- Double Team
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Raichu_Alola @ Shuca Berry
+Level: 47
+Ability: Static
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunderbolt
+- Nasty Plot
+- Nuzzle
+- Light Screen
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Exploud @ Lum Berry
+Level: 47
+Ability: Scrappy
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hyper Voice
+- Rest
+- Sleep Talk
+- Shadow Ball
+
+Swampert @ Sitrus Berry
+Level: 48
+Ability: Torrent
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Tail
+- Bulldoze
+- Rock Slide
+- Protect
 
 === TRAINER_MAY_ROUTE_103_MUDKIP ===
 Name: MAY
@@ -9714,7 +10292,10 @@ AI: Basic Trainer
 
 Treecko
 Level: 5
+Ability: Overgrow
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pound
+- Leer
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
 Name: MAY
@@ -9725,17 +10306,32 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
+Swellow
+Level: 25
+Ability: Guts
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Aerial Ace
+- Facade
+- U-Turn
+- Focus Energy
 
-Slugma
-Level: 18
+Pikachu
+Level: 26
+Ability: Static
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Electro Ball
+- Agility
+- Nuzzle
+- Feint
 
-Grovyle
-Level: 20
+Grovyle @ Sitrus Berry
+Level: 27
+Ability: Overgrow
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Blade
+- Assurance
+- Fury Cutter
+- Detect
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -9746,17 +10342,41 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Swellow @ Focus Sash
+Level: 46
+Ability: Guts
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Brave Bird
+- Facade
+- Endeavor
+- Double Team
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Raichu_Alola @ Shuca Berry
+Level: 47
+Ability: Static
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunderbolt
+- Nasty Plot
+- Nuzzle
+- Light Screen
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Exploud @ Lum Berry
+Level: 47
+Ability: Scrappy
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hyper Voice
+- Rest
+- Sleep Talk
+- Shadow Ball
+
+Sceptile @ Sitrus Berry
+Level: 48
+Ability: Overgrow
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Leaf Blade
+- Dual Chop
+- Night Slash
+- Detect
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
 Name: MAY
@@ -9769,7 +10389,10 @@ AI: Basic Trainer
 
 Torchic
 Level: 5
+Ability: Blaze
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Growl
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
 Name: MAY
@@ -9780,17 +10403,32 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
+Swellow
+Level: 25
+Ability: Guts
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Aerial Ace
+- Facade
+- U-Turn
+- Focus Energy
 
-Lombre
-Level: 18
+Pikachu
+Level: 26
+Ability: Static
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Electro Ball
+- Agility
+- Nuzzle
+- Feint
 
-Combusken
-Level: 20
+Combusken @ Sitrus Berry
+Level: 27
+Ability: Blaze
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Double Kick
+- Flame Charge
+- Aerial Ace
+- Slash
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
@@ -9801,17 +10439,41 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Swellow @ Focus Sash
+Level: 46
+Ability: Guts
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Brave Bird
+- Facade
+- Endeavor
+- Double Team
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Raichu_Alola @ Shuca Berry
+Level: 47
+Ability: Static
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunderbolt
+- Nasty Plot
+- Nuzzle
+- Light Screen
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Exploud @ Lum Berry
+Level: 47
+Ability: Scrappy
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hyper Voice
+- Rest
+- Sleep Talk
+- Shadow Ball
+
+Blaziken @ Sitrus Berry
+Level: 48
+Ability: Blaze
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Blaze Kick
+- Brick Break
+- Aerial Ace
+- Bulk Up
 
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
 Name: MAY
@@ -9824,7 +10486,10 @@ AI: Basic Trainer
 
 Mudkip
 Level: 5
+Ability: Torrent
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Growl
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: MAY
@@ -9835,17 +10500,32 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Lombre
-Level: 18
+Swellow
+Level: 25
+Ability: Guts
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Aerial Ace
+- Facade
+- U-Turn
+- Focus Energy
 
-Slugma
-Level: 18
+Pikachu
+Level: 26
+Ability: Static
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Electro Ball
+- Agility
+- Nuzzle
+- Feint
 
-Marshtomp
-Level: 20
+Marshtomp @ Sitrus Berry
+Level: 27
+Ability: Torrent
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Mud Shot
+- Water Pulse
+- Rock Slide
+- Rock Smash
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -9856,17 +10536,41 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Swellow @ Focus Sash
+Level: 46
+Ability: Guts
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Brave Bird
+- Facade
+- Endeavor
+- Double Team
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Raichu_Alola @ Shuca Berry
+Level: 47
+Ability: Static
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Thunderbolt
+- Nasty Plot
+- Nuzzle
+- Light Screen
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Exploud @ Lum Berry
+Level: 47
+Ability: Scrappy
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Hyper Voice
+- Rest
+- Sleep Talk
+- Shadow Ball
+
+Swampert @ Sitrus Berry
+Level: 48
+Ability: Torrent
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Tail
+- Bulldoze
+- Rock Slide
+- Protect
 
 === TRAINER_ISAAC_1 ===
 Name: ISAAC
@@ -10888,13 +11592,23 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 13
+Taillow
+Level: 17
+Ability: Guts
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Quick Attack
+- Focus Energy
+- Wing Attack
+- Double Team
 
-Torchic
-Level: 15
+Combusken @ Oran Berry
+Level: 18
+Ability: Blaze
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Flame Charge
+- Double Kick
+- Detect
+- Sand Attack
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: BRENDAN
@@ -10905,13 +11619,23 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 13
+Taillow
+Level: 17
+Ability: Guts
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Quick Attack
+- Focus Energy
+- Wing Attack
+- Double Team
 
-Treecko
-Level: 15
+Grovyle @ Oran Berry
+Level: 18
+Ability: Overgrow
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mega Drain
+- Fury Cutter
+- Detect
+- Quick Attack
 
 === TRAINER_PAXTON ===
 Name: PAXTON
@@ -10969,21 +11693,41 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer
 
-Numel
-Level: 18
+Dustox
+Level: 34
+Ability: Shield Dust
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Toxic
+- Moonlight
+- Light Screen
+- Venoshock
 
-Poochyena
-Level: 20
+Steelix
+Level: 34
+Ability: Sturdy
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Iron Head
+- Drill Run
+- Curse
+- Sandstorm
 
-Numel
-Level: 22
+Arcanine_Hisui @ Berry Juice
+Level: 35
+Ability: Rock Head
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Flame Wheel
+- Rock Slide
+- Crunch
+- Take Down
 
-Zubat
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Kleavor @ Sitrus Berry
+Level: 36
+Ability: Swarm
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Stone Axe
+- X-Scissor
+- Slash
+- Agility
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -11012,13 +11756,23 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 13
+Taillow
+Level: 17
+Ability: Guts
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Quick Attack
+- Focus Energy
+- Wing Attack
+- Double Team
 
-Mudkip
-Level: 15
+Marshtomp @ Oran Berry
+Level: 18
+Ability: Torrent
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Water Gun
+- Mud Shot
+- Protect
+- Supersonic
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: MAY
@@ -11029,13 +11783,23 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Wingull
-Level: 13
+Taillow
+Level: 17
+Ability: Guts
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Quick Attack
+- Focus Energy
+- Wing Attack
+- Double Team
 
-Treecko
-Level: 15
+Grovyle @ Oran Berry
+Level: 18
+Ability: Overgrow
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mega Drain
+- Fury Cutter
+- Detect
+- Quick Attack
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
 Name: MAXIE
@@ -11047,17 +11811,59 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 37
+Mightyena @ Focus Sash
+Level: 58
+Ability: Intimidate
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Crunch
+- Play Rough
+- Taunt
+- Yawn
 
-Crobat
-Level: 38
+Crobat @ Wacan Berry
+Level: 58
+Ability: Infiltrator
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Cross Poison
+- Toxic
+- U-Turn
+- Acrobatics
 
-Camerupt
-Level: 39
+Armaldo @ Scope Lens
+Level: 59
+Ability: Battle Armor
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- X-Scissor
+- Stone Edge
+- Aqua Cutter
+- Swords Dance
+
+Cradily @ Leftovers
+Level: 59
+Ability: Storm Drain
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Giga Drain
+- Leech Seed
+- Ancient Power
+- Sludge Bomb
+
+Weezing @ Life Orb
+Level: 59
+Ability: Levitate
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Sludge Bomb
+- Destiny Bond
+- Heat Wave
+- Shadow Ball
+
+Camerupt @ Passho Berry
+Level: 60
+Ability: Sheer Force
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Earth Power
+- Flamethrower
+- Yawn
+- Fissure
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
 Name: MAXIE
@@ -11069,17 +11875,41 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 24
+Mightyena @ Lum Berry
+Level: 36
+Ability: Intimidate
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Crunch
+- Swagger
+- Taunt
+- Headbutt
 
-Zubat
-Level: 24
+Crobat @ Scope Lens
+Level: 37
+Ability: Infiltrator
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Cross Poison
+- Wing Attack
+- X-Scissor
+- Mean Look
 
-Camerupt
-Level: 25
+Weezing @ Leftovers
+Level: 37
+Ability: Levitate
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Sludge Bomb
+- Heat Wave
+- Haze
+- Protect
+
+Camerupt @ Passho Berry
+Level: 38
+Ability: Sheer Force
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Lava Plume
+- Earth Power
+- Yawn
+- Rock Polish
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -12078,9 +12908,32 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Ralts
-Level: 16
+Pidgeotto
+Level: 27
+Ability: Keen Eye
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Air Slash
+- Whirlwind
+- U-Turn
+- Steel Wing
+
+Magnemite
+Level: 28
+Ability: Sturdy
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Charge Beam
+- Magnet Rise
+- Mirror Shot
+- Supersonic
+
+Kirlia @ Sitrus Berry
+Level: 29
+Ability: Trace
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Psybeam
+- Draining Kiss
+- Hypnosis
+- Magical Leaf
 
 === TRAINER_WALLY_PETALBURG ===
 Name: WALLY
@@ -13583,21 +14436,59 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 26
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Dustox @ Leftovers
+Level: 57
+Ability: Shield Dust
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sludge Bomb
+- Toxic
+- Moonlight
+- Protect
 
-Mightyena
-Level: 28
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Steelix @ Expert Belt
+Level: 57
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Earthquake
+- Gyro Ball
+- Stone Edge
+- Curse
 
-Zubat
-Level: 30
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Nidoking @ Life Orb
+Level: 58
+Ability: Sheer Force
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Earth Power
+- Sludge Bomb
+- Ice Beam
+- Thunderbolt
 
-Camerupt
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Heracross @ Coba Berry
+Level: 58
+Ability: Moxie
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Megahorn
+- Close Combat
+- Throat Chop
+- Aerial Ace
+
+Arcanine_Hisui @ Heavy Duty Boots
+Level: 57
+Ability: Rock Head
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Raging Fury
+- Rock Slide
+- Extreme Speed
+- Crunch
+
+Kleavor @ Focus Sash
+Level: 58
+Ability: Sheer Force
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Axe
+- X-Scissor
+- Swords Dance
+- Aerial Ace
 
 === TRAINER_DARCY ===
 Name: DARCY
@@ -14219,13 +15110,23 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Lotad
-Level: 13
+Taillow
+Level: 17
+Ability: Guts
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Quick Attack
+- Focus Energy
+- Wing Attack
+- Double Team
 
-Torchic
-Level: 15
+Combusken @ Oran Berry
+Level: 18
+Ability: Blaze
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Flame Charge
+- Double Kick
+- Detect
+- Sand Attack
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: MAY
@@ -14236,9 +15137,14 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torkoal
-Level: 13
+Taillow
+Level: 17
+Ability: Guts
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Quick Attack
+- Focus Energy
+- Wing Attack
+- Double Team
 
 Mudkip
 Level: 15
@@ -15954,53 +16860,59 @@ Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Skarmory
+Skarmory @ Leftovers
 Level: 77
+Ability: Sturdy
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Toxic
-- Aerial Ace
-- Spikes
-- Steel Wing
+- Stealth Rock
+- Drill Peck
+- Roost
 
-Claydol
+Tyranitar @ Chople Berry
 Level: 75
+Ability: Sand Stream
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Reflect
-- Light Screen
-- Ancient Power
+- Stone Edge
+- Crunch
 - Earthquake
+- Dragon Dance
 
-Aggron
+Iron Treads @ Booster Energy
 Level: 76
+Ability: Quark Drive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
+- Iron Head
 - Earthquake
-- Solar Beam
-- Dragon Claw
+- Ice Spinner
+- Knock Off
 
-Cradily
+Great Tusk @ Life Orb
 Level: 76
+Ability: Sand Rush
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Ancient Power
-- Ingrain
-- Confuse Ray
+- Close Combat
+- Headlong Rush
+- Stone Edge
+- Rapid Spin
 
-Armaldo
+Aerodactyl @ Focus Sash
 Level: 76
+Ability: Rock Head
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Ancient Power
-- Aerial Ace
-- Slash
+- Head Smash
+- Brave Bird
+- Double Edge
+- Tailwind
 
-Metagross @ Sitrus Berry
+Metagross @ Air Balloon
 Level: 78
+Ability: Tough Claws
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
 - Meteor Mash
-- Shadow Ball
+- Zen Headbutt
+- Hammer Arm
+- Ice Punch
 
 === TRAINER_STEVEN_DEWFORD ===
 Name: STEVEN
@@ -16014,6 +16926,7 @@ AI: Basic Trainer
 
 Skarmory
 Level: 21
+Ability: Sturdy
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Peck
 - Steel Wing
@@ -16022,6 +16935,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Phanpy
 Level: 22
+Ability: Pickup
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Protect
 - Bulldoze
@@ -16030,6 +16944,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Metang @ Oran Berry
 Level: 23
+Ability: Clear Body
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Zen Headbutt
 - Bullet Punch
