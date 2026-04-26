@@ -827,11 +827,11 @@ Text_GivenStartersPetalburg:
 
 PetalburgCity_EventScript_WallyBattle::
 	lockall
-	setobjectxyperm LOCALID_WALLY, 15, 16
-	addobject LOCALID_WALLY
+	setobjectxyperm LOCALID_PETALBURG_WALLY, 15, 16
+	addobject LOCALID_PETALBURG_WALLY
 	goto_if_set FLAG_WALLY_PETALBURG, PetalburgCity_EventScript_NoWally
-	applymovement LOCALID_WALLY, PetalburgCity_Movement_WallyEnters
-	waitmovement LOCALID_WALLY
+	applymovement LOCALID_PETALBURG_WALLY, PetalburgCity_Movement_WallyEnters
+	waitmovement LOCALID_PETALBURG_WALLY
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Movement_FaceWally
 	msgbox PetalburgCity_Text_WallyBeforeBattle, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_WALLY_PETALBURG, PetalburgCity_Text_WallyDefeat
