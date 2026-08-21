@@ -342,7 +342,7 @@ static enum CancelerResult CancelerVolatileBlocked(struct BattleCalcValues *cv)
         gBattlescriptCurrInstr = BattleScript_MoveUsedHealBlockPrevents;
         result = CANCELER_RESULT_FAILURE;
     }
-    else if (IsGravityPreventingMove(cv->move))
+    else if (IsGravityPreventingMove(GetActiveGimmick(cv->battlerAtk) == GIMMICK_Z_MOVE ? gBattleStruct->baseMove : cv->move))
     {
         gBattleScripting.battler = cv->battlerAtk;
         CancelMultiTurnMoves(cv->battlerAtk);
@@ -1051,7 +1051,6 @@ static enum CancelerResult CancelerPPDeduction(struct BattleCalcValues *cv)
 
             // Possibly better to just move type setting and redirection to attackcanceler as a new case at this point
             SetTypeBeforeUsingMove(cv->move, cv->battlerAtk);
-            ClearDamageCalcResults();
             gBattlescriptCurrInstr = GetMoveBattleScript(cv->move);
             return CANCELER_RESULT_RUN_SCRIPT_AND_INCREMENT;
         }
@@ -1674,7 +1673,8 @@ static bool32 CanTwoTurnMoveFireThisTurn(struct BattleCalcValues *cv)
     u32 attackerWeather = GetAttackerWeather(cv->holdEffects[cv->battlerAtk], cv->abilities[cv->battlerAtk], weather);
     u32 isMoveWeatherAffected = GetMoveTwoTurnAttackWeather(cv->move);
 
-    return (attackerWeather & isMoveWeatherAffected) || (weather & isMoveWeatherAffected);
+    return (attackerWeather & isMoveWeatherAffected)
+        || IsBattlerWeatherAffected(cv->holdEffects[cv->battlerAtk], weather, isMoveWeatherAffected);
 }
 
 static enum CancelerResult HandleSkyDropResult(struct BattleCalcValues *cv)
@@ -1685,15 +1685,16 @@ static enum CancelerResult HandleSkyDropResult(struct BattleCalcValues *cv)
         gBattleScripting.animTargetsHit = 0;
         gBattleMons[cv->battlerAtk].volatiles.multipleTurns = FALSE;
         gBattleMons[cv->battlerAtk].volatiles.semiInvulnerable = STATE_NONE;
-        gBattleMons[cv->battlerAtk].volatiles.skyDropTarget = 0;
 
         // Sky Drop fails if target already left the field
-        if (gBattleMons[cv->battlerDef].volatiles.semiInvulnerable == STATE_NONE)
+        if (gBattleMons[cv->battlerDef].volatiles.semiInvulnerable == STATE_NONE || gBattleMons[cv->battlerAtk].volatiles.skyDropTarget == 0)
         {
+            gBattleMons[cv->battlerAtk].volatiles.skyDropTarget = 0;
             gBattlescriptCurrInstr = BattleScript_SkyDropNoTarget;
             return CANCELER_RESULT_FAILURE;
         }
 
+        gBattleMons[cv->battlerAtk].volatiles.skyDropTarget = 0;
         gBattleMons[cv->battlerDef].volatiles.semiInvulnerable = STATE_NONE;
         return CANCELER_RESULT_SUCCESS;
     }
@@ -2857,6 +2858,7 @@ static enum MoveEndResult MoveEndSymbiosis(struct BattleCalcValues *cv)
             && TryTriggerSymbiosis(battler, GetPartnerBattler(battler)))
         {
             BestowItem(GetPartnerBattler(battler), battler);
+            gSpecialStatuses[battler].berryReduced = FALSE;
             gLastUsedAbility = gBattleMons[GetPartnerBattler(battler)].ability;
             gEffectBattler = battler;
             gBattleScripting.battler = gBattlerAbility = GetPartnerBattler(battler);
@@ -3024,6 +3026,16 @@ static enum MoveEndResult MoveEndUpdateLastMoves(struct BattleCalcValues *cv)
 
         if (!gBattleStruct->unableToUseMove
          && !IsBattlerUnaffectedByMove(cv->battlerDef)
+         && gChosenMove != MOVE_UNAVAILABLE
+         && !gSpecialStatuses[cv->battlerAtk].dancerUsedMove)
+        {
+            gLastUsedMove = cv->move;
+            if (IsMaxMove(cv->move))
+                gBattleStruct->dynamax.lastUsedBaseMove = gBattleStruct->dynamax.baseMoves[cv->battlerAtk];
+        }
+
+        if (!gBattleStruct->unableToUseMove
+         && !IsBattlerUnaffectedByMove(cv->battlerDef)
          && IsBattlerAlive(cv->battlerDef))
         {
             if (gChosenMove == MOVE_UNAVAILABLE)
@@ -3034,12 +3046,6 @@ static enum MoveEndResult MoveEndUpdateLastMoves(struct BattleCalcValues *cv)
             {
                 gLastLandedMoves[cv->battlerDef] = cv->move;
                 gLastHitByType[cv->battlerDef] = GetBattleMoveType(cv->move);
-                if (!gSpecialStatuses[cv->battlerAtk].dancerUsedMove)
-                {
-                    gLastUsedMove = cv->move;
-                    if (IsMaxMove(cv->move))
-                        gBattleStruct->dynamax.lastUsedBaseMove = gBattleStruct->dynamax.baseMoves[cv->battlerAtk];
-                }
             }
         }
         else
