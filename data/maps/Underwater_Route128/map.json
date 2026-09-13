@@ -3,7 +3,6 @@
   "name": "Underwater_Route128",
   "layout": "LAYOUT_UNDERWATER_ROUTE128",
   "music": "MUS_UNDERWATER",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_UNDERWATER_128",
   "requires_flash": false,
   "weather": "WEATHER_UNDERWATER_BUBBLES",
@@ -25,9 +24,7 @@
       "direction": "emerge"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 38,
@@ -37,9 +34,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "hidden_item",
@@ -57,5 +52,6 @@
       "item": "ITEM_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_128_PEARL"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

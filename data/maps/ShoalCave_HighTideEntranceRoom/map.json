@@ -3,7 +3,6 @@
   "name": "ShoalCave_HighTideEntranceRoom",
   "layout": "LAYOUT_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
   "music": "MUS_MT_PYRE",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_SHOAL_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +12,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -29,13 +28,8 @@
       "flag": "FLAG_ITEM_ICY_ROCK"
     }
   ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

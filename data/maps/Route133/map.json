@@ -3,7 +3,6 @@
   "name": "Route133",
   "layout": "LAYOUT_ROUTE133",
   "music": "MUS_ROUTE119",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_133",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -170,13 +169,8 @@
       "flag": "FLAG_ITEM_ROUTE_133_ABILITY_PATCH"
     }
   ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }
