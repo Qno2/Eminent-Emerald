@@ -349,33 +349,33 @@
                 "species": "SPECIES_WINGULL"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_HOOTHOOT"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_LEDYBA"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_HOOTHOOT"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_LEDYBA"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_IGGLYBUFF"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 2,
+                "max_level": 4,
                 "species": "SPECIES_IGGLYBUFF"
               }
             ]
