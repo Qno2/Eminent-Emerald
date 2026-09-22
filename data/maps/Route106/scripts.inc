@@ -46,3 +46,10 @@ Route106_Text_TrainerTips:
 	.string "Advice on catching POKéMON with a ROD:\n"
 	.string "Press the A Button if you get a bite.$"
 
+
+Route106_EventScript_Misty::
+	msgbox Route106_Text_Misty, MSGBOX_NPC
+	end
+
+Route106_Text_Misty:
+	.string "This is a placeholder.$"

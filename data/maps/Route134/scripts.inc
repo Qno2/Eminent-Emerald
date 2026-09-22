@@ -51,3 +51,10 @@ Route134_EventScript_Kelvin::
 	msgbox Route134_Text_KelvinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+
+Route134_EventScript_Brandon::
+	msgbox Route134_Text_Brandon, MSGBOX_NPC
+	end
+
+Route134_Text_Brandon:
+	.string "This is a placeholder.$"

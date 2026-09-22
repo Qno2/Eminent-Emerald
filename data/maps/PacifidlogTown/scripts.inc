@@ -52,3 +52,11 @@ PacifidlogTown_Text_TownSign:
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
 
+
+PacifidlogTown_EventScript_Blaine::
+	msgbox PacifidlogTown_Text_Blaine, MSGBOX_NPC
+	end
+
+PacifidlogTown_Text_Blaine:
+	.string "This is a placeholder.$"
+

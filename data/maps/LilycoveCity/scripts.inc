@@ -802,3 +802,11 @@ LilycoveCity_Text_DontYouLikeToFish:
 LilycoveCity_Text_GoAfterSeafloorPokemon:
 	.string "Go after the seafloor POKéMON with\n"
 	.string "your SUPER ROD.$"
+
+LilycoveCity_EventScript_Sabrina::
+	msgbox LilycoveCity_Text_Sabrina, MSGBOX_NPC
+	end
+
+LilycoveCity_Text_Sabrina:
+	.string "This is a placeholder.$"
+

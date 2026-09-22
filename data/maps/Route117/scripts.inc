@@ -240,3 +240,11 @@ Route117_Text_RouteSignMauville:
 Route117_Text_DayCareSign:
 	.string "POKéMON DAY CARE\n"
 	.string "“Let us raise your POKéMON.”$"
+
+
+Route117_EventScript_Greta::
+	msgbox Route117_Text_Greta, MSGBOX_NPC
+	end
+
+Route117_Text_Greta:
+	.string "This is a placeholder.$"

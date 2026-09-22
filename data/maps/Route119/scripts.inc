@@ -608,3 +608,11 @@ Route119_Text_TrainerTipsDecoration:
 	.string "Pick your favorite items and create\n"
 	.string "your very own SECRET BASE exactly the\l"
 	.string "way you want.$"
+
+
+Route119_EventScript_Koga::
+	msgbox Route119_Text_Koga, MSGBOX_NPC
+	end
+
+Route119_Text_Koga:
+	.string "This is a placeholder.$"

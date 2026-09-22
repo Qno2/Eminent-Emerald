@@ -468,3 +468,10 @@ Route116_Text_TrainerTipsBagHasPockets:
 	.string "No TRAINER can afford to be without\n"
 	.string "a BAG of their own.$"
 
+
+Route116_EventScript_Brock::
+	msgbox Route116_Text_Brock, MSGBOX_NPC
+	end
+
+Route116_Text_Brock:
+	.string "This is a placeholder.$"

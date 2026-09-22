@@ -715,3 +715,11 @@ Route111_Text_TrainerHillSign:
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
 
+
+Route111_EventScript_Lt_Surge::
+	msgbox Route111_Text_Lt_Surge, MSGBOX_NPC
+	end
+
+Route111_Text_Lt_Surge:
+	.string "This is a placeholder.$"
+

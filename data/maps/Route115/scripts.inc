@@ -143,3 +143,10 @@ Route115_Text_MeteorFallsSign:
 	.string "METEOR FALLS\n"
 	.string "FALLARBOR TOWN THROUGH HERE$"
 
+
+Route115_EventScript_Erika::
+	msgbox Route115_Text_Erika, MSGBOX_NPC
+	end
+
+Route115_Text_Erika:
+	.string "This is a placeholder.$"

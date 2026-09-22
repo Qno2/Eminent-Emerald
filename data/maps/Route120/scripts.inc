@@ -427,3 +427,11 @@ Route120_Text_RouteSignFortree:
 Route120_Text_RouteSign121:
 	.string "{RIGHT_ARROW} ROUTE 121\n"
 	.string "{LEFT_ARROW} ROUTE 120$"
+
+
+Route120_EventScript_Spenser::
+	msgbox Route120_Text_Spenser, MSGBOX_NPC
+	end
+
+Route120_Text_Spenser:
+	.string "This is a placeholder.$"

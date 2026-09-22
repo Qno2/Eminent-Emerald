@@ -197,3 +197,10 @@ Route114_Text_FossilManiacsHouseSign:
 Route114_Text_LanettesHouse:
 	.string "LANETTE'S HOUSE$"
 
+
+Route114_EventScript_Noland::
+	msgbox Route114_Text_Noland, MSGBOX_NPC
+	end
+
+Route114_Text_Noland:
+	.string "This is a placeholder.$"

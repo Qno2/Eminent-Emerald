@@ -300,3 +300,11 @@ Route128_Text_StevenImGoingToSootopolis:
 	.string "Okay.\n"
 	.string "I'm going to SOOTOPOLIS.$"
 
+
+Route128_EventScript_Tucker::
+	msgbox Route128_Text_Tucker, MSGBOX_NPC
+	end
+
+Route128_Text_Tucker:
+	.string "This is a placeholder.$"
+

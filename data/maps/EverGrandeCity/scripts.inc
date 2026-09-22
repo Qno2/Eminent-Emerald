@@ -235,3 +235,16 @@ EverGrandeCity_Text_BrendanAfterBattle:
 	.string "my Dad with some things.\p"
 	.string "I'll see you around.$"
 
+EverGrandeCity_EventScript_Anabel::
+	msgbox EverGrandeCity_Text_Anabel, MSGBOX_NPC
+	end
+
+EverGrandeCity_Text_Anabel:
+	.string "This is a placeholder.$"
+
+EverGrandeCity_EventScript_Blue::
+	msgbox EverGrandeCity_Text_Blue, MSGBOX_NPC
+	end
+
+EverGrandeCity_Text_Blue:
+	.string "This is a placeholder.$"

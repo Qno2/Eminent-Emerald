@@ -404,3 +404,10 @@ LavaridgeTown_Text_HerbShopSign:
 	.string "POKéMON HERB SHOP\n"
 	.string "“Bitter taste--better cure!”$"
 
+
+LavaridgeTown_EventScript_Lucy::
+	msgbox LavaridgeTown_Text_Lucy, MSGBOX_NPC
+	end
+
+LavaridgeTown_Text_Lucy:
+	.string "This is a placeholder.$"
