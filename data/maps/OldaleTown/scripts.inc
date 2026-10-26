@@ -399,7 +399,7 @@ OldaleTown_Text_TownSign:
 OldaleTown_EventScript_ReceiveOtherStarters::
 	lock
 	faceplayer
-	goto_if_set FLAG_UNUSED_0x265, OldaleTown_EventScript_GivenStarters
+	goto_if_set FLAG_OLDALE_TOWN_STARTERS_GIVEN, OldaleTown_EventScript_GivenStarters
 	msgbox Text_TakeHoennStarters, MSGBOX_DEFAULT
 	getpartysize
 	compare VAR_RESULT, 4
@@ -426,7 +426,7 @@ OldaleTown_Eventscript_GiftWhenTreecko::
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox Text_ReceivedMudkip, MSGBOX_DEFAULT
 	waitfanfare
-	setflag FLAG_UNUSED_0x265
+	setflag FLAG_OLDALE_TOWN_STARTERS_GIVEN
 	msgbox Text_GivenStarters, MSGBOX_DEFAULT
 	release
 	end
@@ -440,7 +440,7 @@ OldaleTown_Eventscript_GiftWhenTorchic::
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox Text_ReceivedMudkip, MSGBOX_DEFAULT
 	waitfanfare
-	setflag FLAG_UNUSED_0x265
+	setflag FLAG_OLDALE_TOWN_STARTERS_GIVEN
 	msgbox Text_GivenStarters, MSGBOX_DEFAULT
 	release
 	end
@@ -454,7 +454,7 @@ OldaleTown_Eventscript_GiftWhenMudkip::
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox Text_ReceivedTorchic, MSGBOX_DEFAULT
 	waitfanfare
-	setflag FLAG_UNUSED_0x265
+	setflag FLAG_OLDALE_TOWN_STARTERS_GIVEN
 	msgbox Text_GivenStarters, MSGBOX_DEFAULT
 	release
 	end

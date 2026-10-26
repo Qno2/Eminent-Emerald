@@ -763,7 +763,7 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 PetalburgCity_EventScript_ReceiveKantoStarters::
 	lock
 	faceplayer
-	goto_if_set FLAG_UNUSED_0x266, PetalburgCity_EventScript_GivenStarters
+	goto_if_set FLAG_PETALBURG_CITY_STARTERS_GIVEN, PetalburgCity_EventScript_GivenStarters
 	msgbox Text_TakeKantoStarters, MSGBOX_DEFAULT
 	getpartysize
 	compare VAR_RESULT, 3
@@ -780,7 +780,7 @@ PetalburgCity_EventScript_ReceiveKantoStarters::
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox Text_ReceivedSquirtle, MSGBOX_DEFAULT
 	waitfanfare
-	setflag FLAG_UNUSED_0x266
+	setflag FLAG_PETALBURG_CITY_STARTERS_GIVEN
 	msgbox Text_GivenStartersPetalburg, MSGBOX_DEFAULT
 	release
 	end

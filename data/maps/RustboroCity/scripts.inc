@@ -1293,7 +1293,7 @@ RustboroCity_Text_YouCanHave2On2Battle:
 RustboroCity_EventScript_ReceiveJohtoStarters::
 	lock
 	faceplayer
-	goto_if_set FLAG_UNUSED_0x267, RustboroCity_EventScript_GivenStarters
+	goto_if_set FLAG_RUSTBORO_CITY_STARTERS_GIVEN, RustboroCity_EventScript_GivenStarters
 	msgbox Text_TakeJohtoStarters, MSGBOX_DEFAULT
 	getpartysize
 	compare VAR_RESULT, 3
@@ -1310,7 +1310,7 @@ RustboroCity_EventScript_ReceiveJohtoStarters::
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox Text_ReceivedTotodile, MSGBOX_DEFAULT
 	waitfanfare
-	setflag FLAG_UNUSED_0x267
+	setflag FLAG_RUSTBORO_CITY_STARTERS_GIVEN
 	msgbox Text_GivenStartersRustboro, MSGBOX_DEFAULT
 	release
 	end

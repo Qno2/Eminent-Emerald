@@ -665,10 +665,10 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
 
 #define FLAG_UNUSED_0x264  0x264 // Unused Flag
-#define FLAG_UNUSED_0x265  0x265 // Unused Flag
-#define FLAG_UNUSED_0x266  0x266 // Unused Flag
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
+#define FLAG_OLDALE_TOWN_STARTERS_GIVEN  0x265 // Used for hoenn starter gift
+#define FLAG_PETALBURG_CITY_STARTERS_GIVEN 0x266 // Used for kanto starter gift
+#define FLAG_RUSTBORO_CITY_STARTERS_GIVEN  0x267 // Used for johto starter gift
+#define FLAG_MAUVILLE_CITY_PORYGON_GIVEN  0x268 // Used for Porygon gift
 #define FLAG_UNUSED_0x269  0x269 // Unused Flag
 #define FLAG_UNUSED_0x26A  0x26A // Unused Flag
 #define FLAG_UNUSED_0x26B  0x26B // Unused Flag

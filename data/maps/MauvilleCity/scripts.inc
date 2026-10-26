@@ -434,15 +434,12 @@ MauvilleCity_EventScript_CompletedNewMauville::
 	msgbox MauvilleCity_Text_WattsonThanksTakeTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM_THUNDERBOLT
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	givemon SPECIES_PORYGON, ITEM_NONE
-	msgbox Text_ReceivedPorygon, MSGBOX_DEFAULT
+	giveitem ITEM_UPGRADE
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_GOT_TM_THUNDERBOLT_FROM_WATTSON
 	msgbox MauvilleCity_Text_WattsonYoungTakeCharge, MSGBOX_DEFAULT
 	release
 	end
-
-Text_ReceivedPorygon:
-	.string "{PLAYER} has received a Porygon!$"
 
 MauvilleCity_EventScript_ReceivedThunderbolt::
 	msgbox MauvilleCity_Text_WattsonYoungTakeCharge, MSGBOX_DEFAULT
@@ -669,3 +666,132 @@ MauvilleCity_Text_ExplainTV:
 
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hi, have you been checking out TVs?$"
+
+MauvilleCity_EventScript_PorygonSalesman::
+	lock
+	faceplayer
+	goto_if_set FLAG_MAUVILLE_CITY_PORYGON_GIVEN, MauvilleCity_EventScript_AlreadyBoughtPorygon
+	showmoneybox 0, 0
+	msgbox MauvilleCity_Text_BuyPorygon, MSGBOX_YESNO
+	goto MauvilleCity_EventScript_TryBuyPorygon
+	end
+
+MauvilleCity_EventScript_TryBuyPorygon::
+	goto_if_eq VAR_RESULT, NO, MauvilleCity_EventScript_DeclinePorygon
+	checkmoney 10000
+	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_EventScript_NotEnoughMoney
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	setvar VAR_TEMP_1, SPECIES_PORYGON
+	givemon SPECIES_PORYGON, 25
+	goto_if_eq VAR_RESULT, 0, MauvilleCity_EventScript_BuyPorygonParty
+	goto_if_eq VAR_RESULT, 1, MauvilleCity_EventScript_BuyPorygonPC
+	goto_if_eq VAR_RESULT, 2, MauvilleCity_EventScript_NoRoomForPorygon
+	end
+
+MauvilleCity_EventScript_BuyPorygonParty::
+	call MauvilleCity_EventScript_PayForPorygon
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MauvilleCity_EventScript_EndPurchasePorygon
+	call Common_EventScript_GetGiftMonPartySlot
+	fadescreen FADE_TO_BLACK
+	hidemoneybox
+	special ChangePokemonNickname
+	goto MauvilleCity_EventScript_BoughtPorygon
+	end
+
+MauvilleCity_EventScript_BuyPorygonPC::
+	call MauvilleCity_EventScript_PayForPorygon
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MauvilleCity_EventScript_TransferPorygonCloseMoneyBox
+	fadescreen FADE_TO_BLACK
+	hidemoneybox
+	special ChangePokemonNickname
+	lock
+	faceplayer
+	goto MauvilleCity_EventScript_TransferPorygon
+	end
+
+MauvilleCity_EventScript_TransferPorygonCloseMoneyBox::
+	call Common_EventScript_TransferredToPC
+	goto MauvilleCity_EventScript_EndPurchasePorygon
+	end
+
+MauvilleCity_EventScript_TransferPorygon::
+	call Common_EventScript_TransferredToPC
+	goto MauvilleCity_EventScript_BoughtPorygon
+	end
+
+MauvilleCity_EventScript_EndPurchasePorygon::
+	hidemoneybox
+	goto MauvilleCity_EventScript_BoughtPorygon
+	end
+
+MauvilleCity_EventScript_BoughtPorygon::
+	setflag FLAG_MAUVILLE_CITY_PORYGON_GIVEN
+	release
+	end
+
+MauvilleCity_EventScript_PayForPorygon::
+	removemoney 10000
+	updatemoneybox
+	playfanfare MUS_LEVEL_UP
+	message MauvilleCity_Text_PaidOutrageouslyForPorygon
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_PORYGON
+	return
+
+MauvilleCity_EventScript_DeclinePorygon::
+	msgbox MauvilleCity_Text_OnlyDoingThisAsFavorToYou
+	hidemoneybox
+	release
+	end
+
+MauvilleCity_EventScript_NotEnoughMoney::
+	msgbox MauvilleCity_Text_YoullNeedMoreMoney
+	hidemoneybox
+	release
+	end
+
+MauvilleCity_EventScript_AlreadyBoughtPorygon::
+	msgbox MauvilleCity_Text_IDontGiveRefunds
+	release
+	end
+
+MauvilleCity_EventScript_NoRoomForPorygon::
+	textcolor NPC_TEXT_COLOR_MALE
+	msgbox MauvilleCity_Text_NoRoomForMorePokemon
+	hidemoneybox
+	release
+	end
+
+MauvilleCity_Text_LaddieBuyMagikarpForJust500::
+	.string "MAN: Hello there!\n"
+	.string "Have I got a deal just for you!\p"
+	.string "I'll let you have a special POKéMON\n"
+	.string "for just ¥10,000!\p"
+	.string "So, you'll buy it, am I right?$"
+
+MauvilleCity_Text_BuyPorygon::
+	.string "Would you like to buy the\n"
+	.string "Pokemon for ¥10,000?$"
+
+MauvilleCity_Text_PaidOutrageouslyForPorygon::
+	.string "{PLAYER} paid ¥10,000\n"
+	.string "and bought a Porygon.\p"
+	.string "Is this ethical?$"
+
+MauvilleCity_Text_OnlyDoingThisAsFavorToYou::
+	.string "No? You say no? I'm only doing this\n"
+	.string "as a favor to you!$"
+
+MauvilleCity_Text_NoRoomForMorePokemon::
+	.string "There's no more room for any more\n"
+	.string "POKéMON, it looks like.$"
+
+MauvilleCity_Text_YoullNeedMoreMoney::
+	.string "You'll need more money than that!$"
+
+MauvilleCity_Text_IDontGiveRefunds::
+	.string "MAN: You know what they say,\n"
+	.string "No refunds!$"
