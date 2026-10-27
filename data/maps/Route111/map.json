@@ -643,19 +643,6 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 37,
-      "y": 18,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_THUNDER_STONE",
-      "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_111_THUNDER_STONE"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 37,
       "y": 68,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -664,7 +651,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_HEAVY_DUTY_BOOTS",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_HEAVY_DUTY_BOOTS"
+      "flag": "FLAG_ITEM_ROUTE_111_HEAVY_DUTY_BOOTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -677,7 +664,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_SMOOTH_ROCK",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_SMOOTH_ROCK"
+      "flag": "FLAG_ITEM_ROUTE_111_SMOOTH_ROCK"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -690,7 +677,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_GRASSY_SEED",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_GRASSY_SEED"
+      "flag": "FLAG_ITEM_ROUTE_111_GRASSY_SEED"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LT_SURGE",
@@ -704,6 +691,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route111_EventScript_Lt_Surge",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 37,
+      "y": 20,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_FOCUS_SASH",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE_111_FOCUS_SASH"
     }
   ],
   "warp_events": [

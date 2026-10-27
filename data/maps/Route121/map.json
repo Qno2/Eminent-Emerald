@@ -412,16 +412,16 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 22,
-      "y": 14,
+      "x": 46,
+      "y": 5,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_THUNDER_STONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_MISTY_SEED",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_121_THUNDER_STONE"
+      "flag": "FLAG_ITEM_ROUTE_121_MISTY_SEED"
     }
   ],
   "warp_events": [
