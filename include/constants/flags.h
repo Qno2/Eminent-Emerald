@@ -664,15 +664,15 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E)
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
 
-#define FLAG_UNUSED_0x264  0x264 // Unused Flag
+#define FLAG_UNKNOWN_GIFT  0x264 // Script needs removing
 #define FLAG_OLDALE_TOWN_STARTERS_GIVEN  0x265 // Used for hoenn starter gift
 #define FLAG_PETALBURG_CITY_STARTERS_GIVEN 0x266 // Used for kanto starter gift
 #define FLAG_RUSTBORO_CITY_STARTERS_GIVEN  0x267 // Used for johto starter gift
-#define FLAG_MAUVILLE_CITY_PORYGON_GIVEN  0x268 // Used for Porygon gift
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
+#define FLAG_MAUVILLE_CITY_PORYGON_GIVEN  0x268 // Used for Porygon gift from watson
+#define FLAG_EEVEE_WOODS  0x269 // Used for the gift eevee in Petalburg woods
+#define FLAG_RIVAL_EVERGRANDE  0x26A // Used for the rival fight before victory road
+#define FLAG_WALLY_PETALBURG  0x26B // Used for the wally fight in Petalburg city
+#define FLAG_HIDE_PETALBURG_WALLY  0x26C // Hides wally after the fight in Petalburg city
 #define FLAG_UNUSED_0x26D  0x26D // Unused Flag
 #define FLAG_UNUSED_0x26E  0x26E // Unused Flag
 #define FLAG_UNUSED_0x26F  0x26F // Unused Flag
@@ -746,12 +746,12 @@
 #define FLAG_UNUSED_0x2B3  0x2B3 // Unused Flag
 #define FLAG_UNUSED_0x2B4  0x2B4 // Unused Flag
 #define FLAG_UNUSED_0x2B5  0x2B5 // Unused Flag
-#define FLAG_UNUSED_0x2B6  0x2B6 // Unused Flag
-#define FLAG_UNUSED_0x2B7  0x2B7 // Unused Flag
-#define FLAG_UNUSED_0x2B8  0x2B8 // Unused Flag
-#define FLAG_UNUSED_0x2B9  0x2B9 // Unused Flag
-#define FLAG_UNUSED_0x2BA  0x2BA // Unused Flag
-#define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
+#define FLAG_ITEM_ROUTE_133_SHINY_STONE  0x2B6 // Unused Flag
+#define FLAG_ITEM_ROUTE_108_SHINY_STONE  0x2B7 // Unused Flag
+#define FLAG_ITEM_ROUTE_128_MOON_STONE  0x2B8 // Unused Flag
+#define FLAG_ITEM_ROUTE_122_MOON_STONE  0x2B9 // Unused Flag
+#define FLAG_ITEM_ROUTE_133_SUN_STONE  0x2BA // Unused Flag
+#define FLAG_ITEM_ROUTE_109_SUN_STONE  0x2BB // Unused Flag
 
 // Event Flags
 #define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC
@@ -1114,7 +1114,7 @@
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_HARBOR_MAIL                  0x425
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_WAVE_MAIL                    0x426
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_SHADOW_MAIL                  0x427
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_WOOD_MAIL                    0x428
+#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_SUN_STONE                    0x428
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_4_MECH_MAIL                    0x429
 #define FLAG_ITEM_ROUTE_124_YELLOW_SHARD                            0x42A
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_6_GLITTER_MAIL                 0x42B
@@ -1280,7 +1280,7 @@
 #define FLAG_ITEM_ROUTE_125_ELECTRIC_SEED                                           0x4CA // Unused Flag
 #define FLAG_ITEM_ROUTE_127_GRASSY_SEED                                           0x4CB // Unused Flag
 #define FLAG_ITEM_SEAFLOOR_CAVERN_ROOM_4_FOCUS_SASH                                           0x4CC // Unused Flag
-#define FLAG_ITEM_EXPERT_BELT                                           0x4CD // Unused Flag
+#define FLAG_ITEM_ROUTE_111_RAZOR_FANG                                           0x4CD // Unused Flag
 #define FLAG_ITEM_VICTORY_ROAD_1F_THROAT_SPRAY                                           0x4CE // Unused Flag
 #define FLAG_ITEM_VICTORY_ROAD_B1F_AIR_BALLOON                                           0x4CF // Unused Flag
 #define FLAG_ITEM_VICTORY_ROAD_B1F_WEAKNESS_POLICY                                           0x4D0 // Unused Flag
@@ -1289,32 +1289,32 @@
 #define FLAG_ITEM_ROUTE_134_DRAGON_SCALE                                          0x4D3 // Unused Flag
 #define FLAG_ITEM_ROUTE_124_DEEPSEASCALE                                           0x4D4 // Unused Flag
 #define FLAG_ITEM_ROUTE_126_DEEPSEATOOTH                                           0x4D5 // Unused Flag
-#define FLAG_UNUSED_0x4D6                                           0x4D6 // Unused Flag
-#define FLAG_UNUSED_0x4D7                                           0x4D7 // Unused Flag
-#define FLAG_UNUSED_0x4D8                                           0x4D8 // Unused Flag
-#define FLAG_UNUSED_0x4D9                                           0x4D9 // Unused Flag
-#define FLAG_UNUSED_0x4DA                                           0x4DA // Unused Flag
-#define FLAG_UNUSED_0x4DB                                           0x4DB // Unused Flag
-#define FLAG_UNUSED_0x4DC                                           0x4DC // Unused Flag
-#define FLAG_UNUSED_0x4DD                                           0x4DD // Unused Flag
-#define FLAG_UNUSED_0x4DE                                           0x4DE // Unused Flag
-#define FLAG_UNUSED_0x4DF                                           0x4DF // Unused Flag
-#define FLAG_UNUSED_0x4E0                                           0x4E0 // Unused Flag
-#define FLAG_UNUSED_0x4E1                                           0x4E1 // Unused Flag
-#define FLAG_UNUSED_0x4E2                                           0x4E2 // Unused Flag
-#define FLAG_UNUSED_0x4E3                                           0x4E3 // Unused Flag
-#define FLAG_UNUSED_0x4E4                                           0x4E4 // Unused Flag
-#define FLAG_UNUSED_0x4E5                                           0x4E5 // Unused Flag
-#define FLAG_UNUSED_0x4E6                                           0x4E6 // Unused Flag
-#define FLAG_UNUSED_0x4E7                                           0x4E7 // Unused Flag
-#define FLAG_UNUSED_0x4E8                                           0x4E8 // Unused Flag
-#define FLAG_UNUSED_0x4E9                                           0x4E9 // Unused Flag
-#define FLAG_UNUSED_0x4EA                                           0x4EA // Unused Flag
-#define FLAG_UNKNOWN_GIFT                                           0x4EB // Unused Flag
-#define FLAG_EEVEE_WOODS                                           0x4EC // Unused Flag
-#define FLAG_RIVAL_EVERGRANDE                                           0x4ED // Unused Flag
-#define FLAG_WALLY_PETALBURG                                           0x4EE // Unused Flag
-#define FLAG_HIDE_PETALBURG_WALLY                                           0x4EF // Unused Flag
+#define FLAG_ITEM_MT_PYRE_SUMMIT_REAPER_CLOTH                                           0x4D6 // Unused Flag
+#define FLAG_ITEM_JAGGED_PASS_RAZOR_CLAW                                           0x4D7 // Unused Flag
+#define FLAG_ITEM_MAGMA_HIDEOUT_4F_MAGMARIZER                                           0x4D8 // Unused Flag
+#define FLAG_ITEM_AQUA_HIDEOUT_B2F_ELECTIRIZER                                           0x4D9 // Unused Flag
+#define FLAG_ITEM_SAFARI_ZONE_NORTH_PROTECTOR                                           0x4DA // Unused Flag
+#define FLAG_ITEM_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB_DUBIOUS_DISC                                           0x4DB // Unused Flag
+#define FLAG_ITEM_ROUTE_119_PRISM_SCALE                                           0x4DC // Unused Flag
+#define FLAG_ITEM_ROUTE_123_PEAT_BLOCK                                           0x4DD // Unused Flag
+#define FLAG_ITEM_MOSSDEEP_CITY_PEAT_BLOCK                                           0x4DE // Unused Flag
+#define FLAG_ITEM_ROUTE_111_LINKING_CORD                                           0x4DF // Unused Flag
+#define FLAG_ITEM_ROUTE_119_LINKING_CORD                                           0x4E0 // Unused Flag
+#define FLAG_ITEM_ROUTE_108_LINKING_CORD                                           0x4E1 // Unused Flag
+#define FLAG_ITEM_ROUTE_113_DUSK_STONE                                           0x4E2 // Unused Flag
+#define FLAG_ITEM_MT_PYRE_EXTERIOR_DUSK_STONE                                           0x4E3 // Unused Flag
+#define FLAG_ITEM_ROUTE_111_KINGS_ROCK                                           0x4E4 // Unused Flag
+#define FLAG_ITEM_ROUTE_124_KINGS_ROCK                                           0x4E5 // Unused Flag
+#define FLAG_ITEM_SHOAL_CAVE_LOWER_ROOM_ICE_STONE                                           0x4E6 // Unused Flag
+#define FLAG_ITEM_SLATEPORT_CITY_ICE_STONE                                           0x4E7 // Unused Flag
+#define FLAG_ITEM_ROUTE_114_DAWN_STONE                                           0x4E8 // Unused Flag
+#define FLAG_ITEM_ROUTE_121_DAWN_STONE                                           0x4E9 // Unused Flag
+#define FLAG_ITEM_ROUTE_120_METAL_COAT                                           0x4EA // Unused Flag
+#define FLAG_ITEM_NEW_MAUVILLE_METAL_COAT                                           0x4EB // Unused Flag
+#define FLAG_ITEM_ROUTE_103_LEAF_STONE                                           0x4EC // Unused Flag
+#define FLAG_ITEM_ROUTE_114_WATER_STONE                                           0x4ED // Unused Flag
+#define FLAG_ITEM_VICTORY_ROAD_B2F_METAL_COAT                                           0x4EE // Unused Flag
+#define FLAG_ITEM_VICTORY_ROAD_1F_SUN_STONE                                           0x4EF // Unused Flag
 
 #define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0
 #define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1
