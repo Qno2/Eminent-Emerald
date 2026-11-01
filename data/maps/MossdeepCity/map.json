@@ -282,6 +282,19 @@
       "trainer_sight_or_berry_tree_id": "ITEM_PEAT_BLOCK",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_MOSSDEEP_CITY_PEAT_BLOCK"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 69,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_FOCUS_BLAST",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_MOSSDEEP_CITY_TM_FOCUS_BLAST"
     }
   ],
   "warp_events": [

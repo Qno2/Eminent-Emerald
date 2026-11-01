@@ -106,6 +106,19 @@
       "trainer_sight_or_berry_tree_id": "ITEM_ELECTIRIZER",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_AQUA_HIDEOUT_B2F_ELECTIRIZER"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 25,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_POWER_GEM",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_AQUA_HIDEOUT_B2F_TM_POWER_GEM"
     }
   ],
   "warp_events": [

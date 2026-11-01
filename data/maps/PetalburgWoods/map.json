@@ -197,6 +197,19 @@
       "trainer_sight_or_berry_tree_id": "ITEM_BERRY_JUICE",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_PETALBURG_WOODS_BERRY_JUICE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 26,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_PSYCH_UP",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_PETALBURG_WOODS_TM_PSYCH_UP"
     }
   ],
   "warp_events": [
@@ -282,8 +295,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 26,
-      "y": 6,
+      "x": 44,
+      "y": 14,
       "elevation": 3,
       "item": "ITEM_TINY_MUSHROOM",
       "flag": "FLAG_HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_1"
