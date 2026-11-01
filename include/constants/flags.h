@@ -664,7 +664,7 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E)
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
 
-#define FLAG_UNKNOWN_GIFT  0x264 // Script needs removing
+#define FLAG_EXP_SHARE_TOGGLE  0x264 // Script needs removing
 #define FLAG_OLDALE_TOWN_STARTERS_GIVEN  0x265 // Used for hoenn starter gift
 #define FLAG_PETALBURG_CITY_STARTERS_GIVEN 0x266 // Used for kanto starter gift
 #define FLAG_RUSTBORO_CITY_STARTERS_GIVEN  0x267 // Used for johto starter gift

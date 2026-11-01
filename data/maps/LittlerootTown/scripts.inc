@@ -161,6 +161,7 @@ LittlerootTown_EventScript_GoInsideWithMom::
 	waitdooranim
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
+	setflag FLAG_EXP_SHARE_TOGGLE
 	return
 
 LittlerootTown_Movement_MomExitHouse:

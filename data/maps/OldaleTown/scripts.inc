@@ -482,7 +482,7 @@ Text_ReceivedMudkip:
 	.string "{PLAYER} received a Mudkip!$"
 
 Text_GivenStarters:
-	.string "Go get'em kid.$"
+	.string "Go get 'em kid.$"
 
 OldaleTown_EventScript_CheatHouseSign::
 	msgbox OldaleTown_Text_CheatHouseSign, MSGBOX_SIGN
